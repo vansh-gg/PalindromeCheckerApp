@@ -1,22 +1,25 @@
+import java.util.Stack;
 
 public class PalindromeCheckerApp {
 
+
     public static void main(String[] args) {
-        String input = "level";
+        String input = "noon";
 
-        char[] charArray = input.toLowerCase().toCharArray();
+        Stack<Character> stack = new Stack<>();
 
-        int start = 0;
-        int end = charArray.length - 1;
+        for (char c : input.toCharArray()) {
+            stack.push(c);
+        }
+
         boolean isPalindrome = true;
 
-        while (start < end) {
-            if (charArray[start] != charArray[end]) {
+        for (char c : input.toCharArray()) {
+
+            if (c != stack.pop()) {
                 isPalindrome = false;
                 break;
             }
-            start++;
-            end--;
         }
 
         System.out.println("Input String: " + input);
