@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13e31afa-9f87-468b-8464-f13833517658" name="Changes" comment="" />
+    <list default="true" id="13e31afa-9f87-468b-8464-f13833517658" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/PalindromeCheckerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PalindromeCheckerApp.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +40,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "feature/UC13",
+    "git-widget-placeholder": "develop",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Admin/Downloads/PalindromeCheckerApp-main",
     "node.js.detected.package.eslint": "true",
